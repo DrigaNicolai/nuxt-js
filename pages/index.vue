@@ -2,7 +2,7 @@
   <div>
     <h1>Home page</h1>
     <hr>
-    <nuxt-link to="/users">Go to users page</nuxt-link>
+    <nuxt-link to="/users">Go to users page (version 1)</nuxt-link>
     <hr>
     <button @click="goToUsers()">Users page</button>
   </div>

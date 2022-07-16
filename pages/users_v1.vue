@@ -7,7 +7,7 @@ export default {
     const response = await fetch("https://jsonplaceholder.typicode.com/users?_limit=5");
     await new Promise(resolve => setTimeout(() => resolve(), 1200)) // To test loading
     const users = await response.json();
-    return { users };
+    return { users_v1 };
   },
 
   data: () => ({
